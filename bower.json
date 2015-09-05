@@ -1,0 +1,29 @@
+{
+  "name": "travel-tracker",
+  "version": "1.0.0",
+  "homepage": "https://github.com/training4developers/travel-tracker",
+  "authors": [
+    "Eric W. Greene <eric@training4developers.com>"
+  ],
+  "description": "Travel Expense Tracker Application",
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-ui-router": "~0.2.15",
+    "backbone": "~1.2.3",
+    "bluebird": "~2.9.34",
+    "foundation": "~5.5.2",
+    "handlebars": "~4.0.2",
+    "jquery": "~2.1.4",
+    "knockback": "~0.20.5",
+    "requirejs": "~2.1.20",
+    "underscore": "~1.8.3"
+  }
+}
