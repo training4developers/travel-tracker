@@ -1,7 +1,7 @@
 var
 	mongoose = require("mongoose"),
 
-	tripSchema = mongoose.Schema({
+	trainingEngagementSchema = mongoose.Schema({
 		originCity: String
 		originAirportCode: String
 		destinationCity: String,
@@ -22,6 +22,6 @@ var
 		contractType: String
 	}),
 
-	TripModel = mongoose.model("trip", tripSchema);
+	TrainingEngagementModel = mongoose.model("trainEngagement", trainEngagementSchema);
 
-module.exports = TripModel;
+module.exports = TrainingEngagementModel;
